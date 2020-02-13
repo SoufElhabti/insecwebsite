@@ -2460,7 +2460,7 @@ body {
         content: '\f0c9';
         margin: 0 0.5rem 0 0; }
     #header > nav > a + a[href="#menu"]:last-child {
-      border-left: solid 1px rgba(255, 255, 255, 0);
+      border-left: solid 1px rgba(7, 7, 7, 0);
       margin-left: 0.5rem;
       padding-left: 1.25rem; }
     #header > nav > a:last-child {
@@ -2679,8 +2679,8 @@ body {
 
 /* Menu */
 #menu {
-  background-color: #11111100;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #ffffff73;
+  color: rgb(20, 20, 20);
   -moz-transform: translateX(20rem);
   -webkit-transform: translateX(20rem);
   -ms-transform: translateX(20rem);
@@ -2722,8 +2722,8 @@ body {
   #menu button,
   #menu .button {
     background-color: transparent;
-    box-shadow: inset 0 0 0 1px #ffffff;
-    color: #ffffff !important; }
+    box-shadow: inset 0 0 0 1px #f104048a;
+    color: #ff000083 !important; }
     #menu input[type="submit"]:hover,
     #menu input[type="reset"]:hover,
     #menu input[type="button"]:hover,
@@ -2784,7 +2784,7 @@ body {
     transition: color 0.2s ease-in-out;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     border: 0;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgb(5, 5, 5);
     cursor: pointer;
     display: block;
     height: 3.25rem;
